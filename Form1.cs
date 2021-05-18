@@ -52,9 +52,16 @@ namespace CourseWeb1
 
         private void btnManageLocation_Click(object sender, EventArgs e)
         {
+            //this.Hide();
+            //ManageLocation form2 = new ManageLocation();
+            //form2.Show();
+        }
+
+        private void btnLecture_Click(object sender, EventArgs e)
+        {
+            Form2 obj1 = new Form2();
+            obj1.Show();
             this.Hide();
-            ManageLocation form2 = new ManageLocation();
-            form2.Show();
         }
     }
 }

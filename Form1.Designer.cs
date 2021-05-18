@@ -295,6 +295,7 @@ namespace CourseWeb1
             this.btnLecture.TabIndex = 0;
             this.btnLecture.Text = "Lectures";
             this.btnLecture.UseVisualStyleBackColor = false;
+            this.btnLecture.Click += new System.EventHandler(this.btnLecture_Click);
             // 
             // btnManageLocation
             // 
